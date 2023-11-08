@@ -12,7 +12,7 @@ applications:
     options:
       channel: 1.28/edge
     expose: true
-    constraints: "cores=2 mem=8G root-disk=16G"
+    constraints: "cores=2 mem=6G root-disk=16G"
     annotations:
       "gui-x": "800"
       "gui-y": "850"
@@ -32,7 +32,7 @@ applications:
     options:
       channel: 1.28/edge
     expose: true
-    constraints: "cores=2 mem=8G root-disk=16G"
+    constraints: "cores=2 mem=6G root-disk=16G"
     annotations:
       "gui-x": "90"
       "gui-y": "850"
