@@ -1,3 +1,4 @@
+# SSC HyperScale multipass env for MAAS/JUJU/K8S Courses
 write_files:
 - content: |
     config:
