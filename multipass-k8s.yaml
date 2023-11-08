@@ -1,4 +1,4 @@
-description: A minimal two-machine Kubernetes cluster, appropriate for development.
+description: A minimal two-machine Kubernetes cluster, appropriate for Hyperscale formation in multipass environment.
 issues: https://bugs.launchpad.net/charmed-kubernetes-bundles
 series: jammy
 source: https://github.com/charmed-kubernetes/bundle
@@ -59,6 +59,6 @@ relations:
     - "easyrsa:client"
 machines:
   "0":
-    constraints: "cores=2 mem=8G root-disk=16G"
+    constraints: "cores=2 mem=6G root-disk=16G"
   "1":
-    constraints: "cores=2 mem=8G root-disk=16G"
+    constraints: "cores=2 mem=6G root-disk=16G"
